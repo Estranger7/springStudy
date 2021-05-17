@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "animal" class="com.estranger.di.bean.Animal">
+        <property name="name" value="Lion"/>
+        <property name="age"  value="3"/>
+        <!-- 依赖注入cat实例 -->
+        <property name="cat"  ref="cat"/>
+        <constructor-arg ref="rabbit"/>
+    </bean>
+
+    <bean id = "cat" class="com.estranger.di.bean.Cat">
+        <property name="name" value="miaomiao"/>
+        <property name="age"  value="1"/>
+    </bean>
+
+    <bean id = "rabbit" class="com.estranger.di.bean.Rabbit">
+        <constructor-arg index="0" value="amy"/>
+        <constructor-arg index="1" value="2"/>
+    </bean>
+</beans>
