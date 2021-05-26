@@ -12,6 +12,7 @@
         <module>iocDemo</module>
         <module>diDemo</module>
         <module>dlDemo</module>
+        <module>componentDemo</module>
     </modules>
 
     <dependencies>
