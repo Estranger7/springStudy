@@ -14,6 +14,7 @@
         <module>dlDemo</module>
         <module>componentDemo</module>
         <module>moduleAssembly</module>
+        <module>conditionAssembly</module>
     </modules>
 
     <dependencies>

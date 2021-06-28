@@ -2,6 +2,7 @@ package com.estranger.www.factory.config;
 
 import com.estranger.www.factory.ToyFactoryBean;
 import com.estranger.www.factory.bean.Child;
+import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -24,4 +25,5 @@ public class FactoryConfig {
         toyFactoryBean.setChild(child());
         return toyFactoryBean;
     }
+
 }
