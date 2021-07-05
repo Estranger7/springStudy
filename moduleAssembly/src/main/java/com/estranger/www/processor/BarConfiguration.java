@@ -1,4 +1,4 @@
-package com.estranger.www.config;
+package com.estranger.www.processor;
 
 import com.estranger.www.bean.Bar;
 import org.springframework.context.annotation.Bean;

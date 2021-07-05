@@ -1,6 +1,6 @@
 package com.estranger.www.aop;
 
-import com.estranger.www.config.OnBeanCondition;
+import com.estranger.www.processor.OnBeanCondition;
 import org.springframework.context.annotation.Conditional;
 
 import java.lang.annotation.*;

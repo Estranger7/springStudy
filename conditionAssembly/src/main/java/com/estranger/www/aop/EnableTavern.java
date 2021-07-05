@@ -1,7 +1,7 @@
 package com.estranger.www.aop;
 
 import com.estranger.www.bean.Boss;
-import com.estranger.www.config.BarConfiguration;
+import com.estranger.www.processor.BarConfiguration;
 import org.springframework.context.annotation.Import;
 import java.lang.annotation.*;
 

@@ -1,8 +1,7 @@
 package com.estranger.www;
 
 import com.estranger.www.bean.Bartender;
-import com.estranger.www.bean.Boss;
-import com.estranger.www.config.TavernConfiguration;
+import com.estranger.www.processor.TavernConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

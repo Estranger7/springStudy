@@ -1,5 +1,6 @@
-package com.estranger.www.config;
+package com.estranger.www.processor;
 
+import com.estranger.www.aop.EnableTavern;
 import org.springframework.context.annotation.Configuration;
 
 /**

@@ -15,6 +15,7 @@
         <module>componentDemo</module>
         <module>moduleAssembly</module>
         <module>conditionAssembly</module>
+        <module>beanPostProcessor</module>
     </modules>
 
     <dependencies>

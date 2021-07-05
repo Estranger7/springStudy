@@ -1,8 +1,7 @@
-package com.estranger.www.config;
+package com.estranger.www.processor;
 
 import com.estranger.www.aop.ConditionalOnBean;
 import com.estranger.www.bean.Bar;
-import com.estranger.www.bean.Boss;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;

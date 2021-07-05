@@ -1,7 +1,7 @@
 package com.estranger.www.importSelector;
 
 import com.estranger.www.bean.Bar;
-import com.estranger.www.config.BarConfiguration;
+import com.estranger.www.processor.BarConfiguration;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 

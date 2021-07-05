@@ -1,14 +1,9 @@
 package com.estranger.www;
 
-import com.estranger.www.config.QuickConfiguration;
 import com.estranger.www.factory.bean.Toy;
 import com.estranger.www.factory.config.FactoryConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-
-import java.util.stream.Stream;
 
 /**
  * Created by：Estranger
