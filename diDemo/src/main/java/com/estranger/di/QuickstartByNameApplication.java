@@ -14,6 +14,5 @@ public class QuickstartByNameApplication {
         BeanFactory beanFactory = new ClassPathXmlApplicationContext("basic_di/inject-set.xml");
         Animal animal = beanFactory.getBean(Animal.class);
         System.out.println(animal);
-
     }
 }

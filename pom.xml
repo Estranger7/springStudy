@@ -16,6 +16,8 @@
         <module>moduleAssembly</module>
         <module>conditionAssembly</module>
         <module>beanPostProcessor</module>
+        <module>beanFactoryPostProcessor</module>
+        <module>beanDefinitionRegistryPostProcessor</module>
     </modules>
 
     <dependencies>
