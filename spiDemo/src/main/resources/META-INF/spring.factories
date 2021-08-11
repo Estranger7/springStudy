@@ -1,0 +1,3 @@
+com.estranger.www.springSPI.dao.DemoDao = \
+  com.estranger.www.springSPI.dao.impl.DemoMysqlDaoImpl,\
+  com.estranger.www.springSPI.dao.impl.DemoOracleDaoImpl

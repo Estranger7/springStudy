@@ -1,0 +1,4 @@
+com.estranger.www.two.annotation.EnableJdbc = \
+  com.estranger.www.two.configuration.MysqlJdbcConfiguration,\
+  com.estranger.www.two.configuration.H2JdbcConfiguration,\
+  com.estranger.www.two.configuration.OracleJdbcConfiguration

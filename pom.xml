@@ -19,6 +19,8 @@
         <module>beanFactoryPostProcessor</module>
         <module>beanDefinitionRegistryPostProcessor</module>
         <module>program</module>
+        <module>comprehensiveAssembly</module>
+        <module>spiDemo</module>
     </modules>
 
     <dependencies>

@@ -1,0 +1,2 @@
+com.estranger.www.jdkSPI.dao.impl.DemoMysqlDaoImpl
+com.estranger.www.jdkSPI.dao.impl.DemoOracleDaoImpl
