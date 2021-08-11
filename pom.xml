@@ -18,6 +18,7 @@
         <module>beanPostProcessor</module>
         <module>beanFactoryPostProcessor</module>
         <module>beanDefinitionRegistryPostProcessor</module>
+        <module>program</module>
     </modules>
 
     <dependencies>
